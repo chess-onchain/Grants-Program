@@ -5,7 +5,7 @@
 >
 > See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** ChessOnchain
 - **Payment Details:**
   - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
   - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
@@ -21,28 +21,29 @@ If this application is in response to an RFP, please indicate this on the first 
 If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
 
 ### Overview
+ChessOnChain – Multi-Chain Chess Gaming Network.
+Project Description:
+ChessOnChain is a decentralized, multi-chain chess gaming network  that enables players to compete, earn rewards, and own in-game assets as NFTs. ChessOnChain provides a full web3 chess infrastructure where players can mint Proof of Gaming NFTs representing game states, stake assets, and participate in tournaments with distribution.
 
-Please provide the following:
+ChessOnchain integrates into the Polkadot ecosystem through:
 
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+allowing users to authenticate with Talisman wallet, Novawallet and subwallet
+NFT authorization and Checkmate NFT Minting on Unique Network (an NFT augmented Parachain on Polkadot)
+Scaling to Support more parachains in the future
+
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
-
-
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
+Mockups & UI Designs:
+The ChessOnChain UI can be found here
+Core Components & Architecture:
+ChessOnChain Parachain (or Pallet Integration): Providing decentralized chess infrastructure (coming soon)
+NFT & Gaming Economy: On-chain Proof of Gaming NFTs
+Matchmaking & Fair Play Mechanisms : paring users in Free matches
+Multi-chain support : Allow users to sign in with any familiar chain
+What ChessOnChain is NOT
+It does not require custodial wallets—users fully control their chess NFTs and assets.
+The project does not focus on tokenomics speculation but on real use cases for on-chain gaming.
 
 - The (future) tokenomics of your project
 - For non-infrastructure projects—deployment and hosting costs, maintenance or audits
@@ -50,17 +51,28 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
-
+How ChessOnChain Fits into the Polkadot / Substrate / Kusama Landscape:
+NFT & Web3 Gaming Economy: ChessOnChain NFTs represent unique game states and can be staked, auctioned, or burned for rewards.
+Target Audience:
+Blockchain Gamers & Chess Enthusiasts: Seeking an open, fair, and multi-chain chess ecosystem.
+Tournament Organizers: Creating decentralized chess tournaments with on-chain prize pools.
+What Need(s) Does ChessOnChain Meet?
+Eliminates Centralized Chess Control: Web2 chess platforms control ratings, rankings, and player bans arbitrarily. ChessOnChain offers decentralized, transparent governance.
+Ensures Verifiable Chess Matches: On-chain storage guarantees tamper-proof game history.
+Creates a Rewarding Chess Economy: Players earn from tournaments, NFT sales, and staking.
+Enables Multi-Chain Chess Matches: Unlike existing chess apps, ChessOnChain operates across multiple chains using XCM & ink! smart contracts.
+How We Identified These Needs:
+Case Study: FIDE Chess Rankings & Web2 Limitations: The current system lacks transparency and is prone to arbitrary rating changes.
+Community Discussions: Many chess players in Web3 complain about cheating, lack of monetization, and centralized bans (e.g., in Lichess/Chess.com).
+Growing Web3 Gaming Adoption: NFT-based games like Axie Infinity and Treasure DAO prove on-chain gaming demand is increasing.
+Are There Similar Projects in Polkadot / Kusama?
+No direct competitors offer fully on-chain chess mechanics with NFT-based rewards and multi-chain support.
+Chess platforms like Lichess and Chess.com are centralized and do not provide player-owned assets or Web3 incentives.
+Existing blockchain games focus on speculative NFTs rather than decentralized gameplay.
+Are There Similar Projects in Other Ecosystems?
+Immortal Game (Ethereum): Uses NFTs but is fully centralized.
+OnChain Chess (EVM chains): Limited to Solidity-based smart contracts, lacks multi-chain and Polkadot integration.
+Horizon’s Skyweaver (Polygon): Focuses on card games, showing the demand for Web3 strategy games.
 ## Team :busts_in_silhouette:
 
 > [!IMPORTANT]
